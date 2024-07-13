@@ -69,7 +69,6 @@ div {
     height: 95%;
     width: 16.3%;
     transform: translate(1.5%, 2.5%);
-    
 }
 
 .op1{
@@ -107,11 +106,18 @@ div {
     transform: translate(512%, -497.5%);
 }
 
+/* .opt-txt{
+    transform: (50%, 50%);
+
+} */
+
 h1{
     color: white;
-    text-align-last: center;
-    font-family: "Open Sans", sans-serif;;
-    
+    line-height: 50%;
+    text-align: center;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 200%;
 }
 
 /* .option{
