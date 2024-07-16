@@ -54,6 +54,36 @@ body {
     flex: 1;
 }
 
+#contacting-reps{
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 200%;
+    left: 3%;
+    flex: 1;
+}
+
+#contacting-reps h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    color:#BF4962;
+    margin-left: 55%;
+    margin-top: -23%;
+    margin-right: -55%;
+}
+
+#contacting-reps p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color:#F5FAE2;
+    margin-left: 92%;
+    margin-right: -65%;
+}
+
 .site-title {
     font-family: "Open Sans", sans-serif;
     font-size: 100%;
