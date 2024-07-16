@@ -54,7 +54,7 @@ body {
     flex: 1;
 }
 
-#contacting-reps{
+#contacting-reps {
     margin: auto;
     padding: auto;
     align-content: center;
@@ -67,19 +67,19 @@ body {
     flex: 1;
 }
 
-#contacting-reps h2{
+#contacting-reps h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 50px;
-    color:#BF4962;
+    color: #BF4962;
     margin-left: 55%;
     margin-top: -23%;
     margin-right: -55%;
 }
 
-#contacting-reps p{
+#contacting-reps p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
-    color:#F5FAE2;
+    color: #F5FAE2;
     margin-left: 92%;
     margin-right: -65%;
 }
@@ -220,7 +220,7 @@ body {
     text-align: left;
     left: 25%;
     position: relative;
-    
+
 }
 
 .squiggle {
@@ -250,9 +250,10 @@ h1 {
     font-size: 200%;
 }
 
-p{
-    font-family: "Open Sans", sans-serif;;
-    color:#F5FAE2;
+p {
+    font-family: "Open Sans", sans-serif;
+    ;
+    color: #F5FAE2;
     font-size: 18px;
 }
 
@@ -270,13 +271,13 @@ p{
     flex: 1;
 }
 
-.subtitle h2{
+.subtitle h2 {
     margin-top: -35%;
     margin-left: 100%;
     align-items: right;
 }
 
-.subtitle p{
+.subtitle p {
     align-items: center;
     margin-left: 12%;
     margin-right: -50%;
@@ -285,7 +286,7 @@ p{
     letter-spacing: 2px;
 }
 
-.dropdowns{
+.dropdowns {
     margin: auto;
     padding: auto;
     position: relative;
@@ -372,7 +373,7 @@ input[type="checkbox"]:focus+lbael {
     text-decoration: none;
 }
 
-.dropdowns p{
+.dropdowns p {
     margin-lefT: 316%;
     margin-right: -316%;
 }
@@ -399,7 +400,112 @@ input[type="checkbox"]:focus+lbael {
     transform: translate(-38%, -10%);
 } */
 
+#contacting-reps .button-box {
+    margin-top: -23%;
+    margin-left: 170%;
+}
 
+#contacting-reps button {
+    background-color: #994154;
+    color: #F5FAE2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 5em;
+    border-radius: 0em;
+    cursor: pointer;
+}
+
+#donations {
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 250%;
+    left: 3%;
+    flex: 1;
+}
+
+#donations h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    color: #BF4962;
+    margin-left: 85%;
+    margin-top: -35%;
+    margin-right: -55%;
+}
+
+#donations p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #F5FAE2;
+    margin-top: -25%;
+    margin-left: 200%;
+    margin-right: -155%;
+}
+
+#donations .button-box {
+    margin-left: 86%;
+}
+
+.buttons-all{
+    margin-top: 24%;
+}
+
+#donations .eSIMS {
+    font-family: "Open Sans", sans-serif;
+    color: #F5FAE2 ;
+    background-color: #994154;
+    font-size: 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 3em;
+    border-radius: 0em;
+    cursor: pointer;
+}
+
+#donations .GazaFunds {
+    font-family: "Open Sans", sans-serif;
+    color: #F5FAE2 ;
+    background-color: #994154;
+    font-size: 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 3em;
+    border-radius: 0em;
+    cursor: pointer;
+    margin-top: 20%;
+    margin-left: 600%;
+    margin-top: -215%;
+}
+
+#donations .ongroundaid {
+    font-family: "Open Sans", sans-serif;
+    color: #F5FAE2 ;
+    background-color: #994154;
+}
+
+#donations .operation-olive-branch {
+    font-family: "Open Sans", sans-serif;
+    color: #F5FAE2 ;
+    background-color: #994154;
+}
+
+#donations .gazaminicipality {
+    font-family: "Open Sans", sans-serif;
+    color: #F5FAE2 ;
+    background-color: #994154;
+}
 
 @media screen and (max-width:768px) {
     body {
