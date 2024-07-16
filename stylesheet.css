@@ -342,8 +342,9 @@ input[type="checkbox"]:focus+lbael {
     text-decoration: none;
 }
 
-.pointer {
-
+.dropdowns p{
+    margin-lefT: 316%;
+    margin-right: -316%;
 }
 
 #baseline-and-BDS h2 {
