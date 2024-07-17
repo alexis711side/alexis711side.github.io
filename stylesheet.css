@@ -41,6 +41,10 @@ body {
     top: -30%;
 }
 
+#slidebar-and-title h2{
+    font-size: 50px;;
+}
+
 #baseline-and-BDS {
     margin: auto;
     padding: auto;
@@ -236,7 +240,7 @@ body {
     z-index: -1;
     left: 285%;
     width: 220%;
-    height: 450%;
+    height: 350%;
     transform: translate(-10%, -58%);
     position: absolute;
 }
@@ -436,8 +440,8 @@ input[type="checkbox"]:focus+lbael {
     font-family: "Open Sans", sans-serif;
     font-size: 50px;
     color: #BF4962;
-    margin-left: 85%;
-    margin-top: -35%;
+    margin-left: 43%;
+    margin-top: -18%;
     margin-right: -55%;
 }
 
@@ -445,17 +449,17 @@ input[type="checkbox"]:focus+lbael {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: #F5FAE2;
-    margin-top: -25%;
-    margin-left: 200%;
+    margin-top: -12%;
+    margin-left: 100%;
     margin-right: -155%;
 }
 
 #donations .button-box {
-    margin-left: 86%;
+    margin-left: 43%;
 }
 
 .buttons-all{
-    margin-top: 24%;
+    margin-top: 10%;
 }
 
 #donations .eSIMS {
@@ -481,30 +485,160 @@ input[type="checkbox"]:focus+lbael {
     display: flex;
     justify-content: flex-end;
     align-items: right;
-    padding: 1em 3em;
+    padding: 1em 2em;
     border-radius: 0em;
     cursor: pointer;
-    margin-top: 20%;
-    margin-left: 600%;
-    margin-top: -215%;
+    margin-left: 80%;
+    margin-top: -28%;
+
 }
 
 #donations .ongroundaid {
     font-family: "Open Sans", sans-serif;
     color: #F5FAE2 ;
     background-color: #994154;
+    font-size: 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 3em;
+    border-radius: 0em;
+    cursor: pointer;
+    margin-top: -28%;
+    margin-left: 163%;
+    margin-right: -190%;
 }
 
 #donations .operation-olive-branch {
     font-family: "Open Sans", sans-serif;
     color: #F5FAE2 ;
     background-color: #994154;
+    font-size: 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 5em;
+    border-radius: 0em;
+    cursor: pointer;
+    margin-right: -76%;
+    margin-top: 5%;
 }
 
 #donations .gazaminicipality {
     font-family: "Open Sans", sans-serif;
     color: #F5FAE2 ;
     background-color: #994154;
+    font-size: 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 2.15em;
+    border-radius: 0em;
+    cursor: pointer;
+    margin-right: -210%;
+    margin-left: 182%;
+    margin-top: -28%;
+}
+
+#ceasefire-now{
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 300%;
+    left: 3%;
+    flex: 1; 
+}
+
+#ceasefire-now h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    color: #BF4962;
+    margin-left: 60%;
+    margin-right: -60%;
+    margin-top: -25%;
+}
+
+#ceasefire-now p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #F5FAE2;
+    margin-left: 137%;
+    margin-right: -65%;
+}
+
+#ceasefire-now .button-box {
+    margin-top: -25%;
+    margin-left: 170%;
+}
+
+#ceasefire-now button {
+    background-color: #994154;
+    color: #F5FAE2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 5em;
+    border-radius: 0em;
+    cursor: pointer;
+}
+
+#protests{
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 350%;
+    left: 3%;
+    flex: 1;
+}
+
+#protests h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    color: #BF4962;
+    margin-left: 65%;
+    margin-right: -60%;
+    margin-top: -26%;
+}
+
+#protests p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #F5FAE2;
+    margin-left: 65%;
+    margin-right: -110%;
+}
+
+#protests .button-box{
+    margin-top: -28%;
+    margin-left: 179%;
+}
+
+#protests button{
+    background-color: #994154;
+    color: #F5FAE2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 5em;
+    border-radius: 0em;
+    cursor: pointer;
 }
 
 @media screen and (max-width:768px) {
