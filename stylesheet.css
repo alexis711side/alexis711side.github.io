@@ -38,11 +38,67 @@ body {
     height: 40%;
     position: relative;
     flex: 1;
-    top: -30%;
 }
 
 #slidebar-and-title h2{
     font-size: 50px;;
+}
+
+#country-options{
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    flex: 1;
+}
+
+.Palestine{
+    width: 33.5%;
+    background:#994154;
+    color:#F5FAE2;
+    border: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: right;
+    padding: 0.5em 1em;
+    border-radius: 0em;
+    cursor: pointer;
+    transform: translate(0%,146%);
+    font-family:"Open Sans", sans-serif ;
+}
+
+.Sudan{
+    width: 33%;
+    background:#545454;
+    margin-left: 33.5%;
+    border: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: right;
+    padding: 0.5em 1em;
+    border-radius: 0em;
+    cursor: pointer;
+    transform: translate(0%,46%);
+    color:#F5FAE2;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Congo{
+    width: 33.5%;
+    background:#545454;
+    margin-left: 66.5%;
+    border: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: right;
+    padding: 0.5em 1em;
+    border-radius: 0em;
+    cursor: pointer;
+    color:#F5FAE2;
+    transform: translate(0%,-54%);
+    font-family:"Open Sans", sans-serif ;
 }
 
 #baseline-and-BDS {
@@ -53,7 +109,7 @@ body {
     height: 50%;
     position: absolute;
     z-index: 1;
-    top: 60%;
+    top: 70%;
     left: -10%;
     flex: 1;
 }
@@ -112,7 +168,6 @@ body {
 }
 
 .sliding-navbar {
-    margin-top: 5%;
     height: 30%;
     background-color: #545454;
 
@@ -631,9 +686,9 @@ input[type="checkbox"]:focus+lbael {
     background-color: #994154;
     color: #F5FAE2;
     font-family: "Open Sans", sans-serif;
-    font-size: 25px;
     border: none;
     display: flex;
+    font-size: 25px;
     justify-content: flex-end;
     align-items: right;
     padding: 1em 5em;
