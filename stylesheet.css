@@ -40,11 +40,12 @@ body {
     flex: 1;
 }
 
-#slidebar-and-title h2{
-    font-size: 50px;;
+#slidebar-and-title h2 {
+    font-size: 50px;
+    
 }
 
-#country-options{
+#country-options {
     width: 70%;
     position: relative;
     top: 50%;
@@ -53,10 +54,10 @@ body {
     flex: 1;
 }
 
-.Palestine{
+.Palestine {
     width: 33.5%;
-    background:#994154;
-    color:#F5FAE2;
+    background: #994154;
+    color: #F5FAE2;
     border: none;
     font-size: 16px;
     justify-content: center;
@@ -64,13 +65,13 @@ body {
     padding: 0.5em 1em;
     border-radius: 0em;
     cursor: pointer;
-    transform: translate(0%,146%);
-    font-family:"Open Sans", sans-serif ;
+    transform: translate(0%, 146%);
+    font-family: "Open Sans", sans-serif;
 }
 
-.Sudan{
+.Sudan {
     width: 33%;
-    background:#545454;
+    background: #545454;
     margin-left: 33.5%;
     border: none;
     display: flex;
@@ -80,14 +81,14 @@ body {
     padding: 0.5em 1em;
     border-radius: 0em;
     cursor: pointer;
-    transform: translate(0%,46%);
-    color:#F5FAE2;
+    transform: translate(0%, 46%);
+    color: #F5FAE2;
     font-family: "Open Sans", sans-serif;
 }
 
-.Congo{
+.Congo {
     width: 33.5%;
-    background:#545454;
+    background: #545454;
     margin-left: 66.5%;
     border: none;
     font-size: 16px;
@@ -96,9 +97,20 @@ body {
     padding: 0.5em 1em;
     border-radius: 0em;
     cursor: pointer;
-    color:#F5FAE2;
-    transform: translate(0%,-54%);
-    font-family:"Open Sans", sans-serif ;
+    color: #F5FAE2;
+    transform: translate(0%, -54%);
+    font-family: "Open Sans", sans-serif;
+}
+
+button.link{
+    background: none;
+    border:none;
+    cursor: pointer;
+    color: white;
+    font-size: 200%;
+    transform: translate(180%, -100%);
+    position: absolute;
+    flex: 1;
 }
 
 #baseline-and-BDS {
@@ -187,6 +199,8 @@ body {
     transform: translate(0%, 150%)
 }
 
+/* 
+need to ammend as a flex square so that it can be animated and each option should be a button */
 .op0 {
     background-color: #994154;
     height: 95%;
@@ -283,10 +297,10 @@ body {
 }
 
 .squiggle {
-    left: 100%;
+    left: 120%;
     width: 175%;
     position: absolute;
-    top: -60%;
+    top: -68%;
     z-index: 1;
 
 }
@@ -513,13 +527,13 @@ input[type="checkbox"]:focus+lbael {
     margin-left: 43%;
 }
 
-.buttons-all{
+.buttons-all {
     margin-top: 10%;
 }
 
 #donations .eSIMS {
     font-family: "Open Sans", sans-serif;
-    color: #F5FAE2 ;
+    color: #F5FAE2;
     background-color: #994154;
     font-size: 25px;
     border: none;
@@ -533,7 +547,7 @@ input[type="checkbox"]:focus+lbael {
 
 #donations .GazaFunds {
     font-family: "Open Sans", sans-serif;
-    color: #F5FAE2 ;
+    color: #F5FAE2;
     background-color: #994154;
     font-size: 25px;
     border: none;
@@ -550,7 +564,7 @@ input[type="checkbox"]:focus+lbael {
 
 #donations .ongroundaid {
     font-family: "Open Sans", sans-serif;
-    color: #F5FAE2 ;
+    color: #F5FAE2;
     background-color: #994154;
     font-size: 25px;
     border: none;
@@ -567,7 +581,7 @@ input[type="checkbox"]:focus+lbael {
 
 #donations .operation-olive-branch {
     font-family: "Open Sans", sans-serif;
-    color: #F5FAE2 ;
+    color: #F5FAE2;
     background-color: #994154;
     font-size: 25px;
     border: none;
@@ -583,7 +597,7 @@ input[type="checkbox"]:focus+lbael {
 
 #donations .gazaminicipality {
     font-family: "Open Sans", sans-serif;
-    color: #F5FAE2 ;
+    color: #F5FAE2;
     background-color: #994154;
     font-size: 25px;
     border: none;
@@ -598,7 +612,7 @@ input[type="checkbox"]:focus+lbael {
     margin-top: -28%;
 }
 
-#ceasefire-now{
+#ceasefire-now {
     margin: auto;
     padding: auto;
     align-content: center;
@@ -608,7 +622,7 @@ input[type="checkbox"]:focus+lbael {
     z-index: 1;
     top: 300%;
     left: 3%;
-    flex: 1; 
+    flex: 1;
 }
 
 #ceasefire-now h2 {
@@ -647,7 +661,7 @@ input[type="checkbox"]:focus+lbael {
     cursor: pointer;
 }
 
-#protests{
+#protests {
     margin: auto;
     padding: auto;
     align-content: center;
@@ -660,7 +674,7 @@ input[type="checkbox"]:focus+lbael {
     flex: 1;
 }
 
-#protests h2{
+#protests h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 50px;
     color: #BF4962;
@@ -669,7 +683,7 @@ input[type="checkbox"]:focus+lbael {
     margin-top: -26%;
 }
 
-#protests p{
+#protests p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: #F5FAE2;
@@ -677,12 +691,12 @@ input[type="checkbox"]:focus+lbael {
     margin-right: -110%;
 }
 
-#protests .button-box{
+#protests .button-box {
     margin-top: -28%;
     margin-left: 179%;
 }
 
-#protests button{
+#protests button {
     background-color: #994154;
     color: #F5FAE2;
     font-family: "Open Sans", sans-serif;
@@ -710,7 +724,7 @@ input[type="checkbox"]:focus+lbael {
 
 @media screen and (max-width: 992px) {
     body {
-        width: 100%;
+        width: 50%;
     }
 }
 
