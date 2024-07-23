@@ -445,8 +445,11 @@ input[type="checkbox"]:focus+lbael {
 }
 
 .dropdowns p {
-    margin-lefT: 316%;
+    margin-left: 316%;
     margin-right: -316%;
+}
+.dropdowns p a{
+    color:#F5FAE2;
 }
 
 #baseline-and-BDS h2 {

@@ -342,7 +342,7 @@ p {
     position: absolute;
     z-index: 1;
     top: 150%;
-    left: 2%;
+    left: 5%;
     flex: 1;
 }
 
@@ -372,6 +372,194 @@ p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
 }
+
+#Olympics{
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+    top: 190%;
+    left: 5%;
+    flex: 1;
+}
+
+#Olympics h4{
+    color: #D67663;
+    font-weight: 350;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+}
+
+
+.dropdowns {
+    margin: auto;
+    padding: auto;
+    position: relative;
+    z-index: 1;
+    top: 5%;
+    left: 0%;
+
+}
+
+.dropdown {
+    justify-content: left;
+    align-content: left;
+    max-width: 100%;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.dropdown-btn {
+    background: #545454;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    width: 522%;
+    border: none;
+    color: #F5FAE2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 0.6em;
+    border-radius: 0em;
+    cursor: pointer;
+}
+
+.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #F5FAE2;
+    transform: rotate(-90deg);
+    transition: transform ease-in-out 0.3s;
+}
+
+.dropdown-content {
+    list-style: none;
+    position: absolute;
+    top: 3.2em;
+    width: 100%;
+    visibility: hidden;
+    transform: translateY(-1em);
+    transition: transform ease 0.3s;
+}
+
+input[type="checkbox"]:checked~.dropdown- content {
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-content li {
+    background: white;
+    border-radius: 0.5em;
+}
+
+input[type="checkbox"]:checked+label>.arrow {
+    transform: rotate(2deg);
+}
+
+input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+}
+
+input[type="checkbox"]:focus+lbael {
+    box-shadow: 0 0 20px rgb(83, 83, 83);
+}
+
+.dropdown-content li:hover {
+    background: #1d1f24;
+}
+
+.dropdown-content li a {
+    display: block;
+    padding: 0.7em 0.5em;
+    color: #F5FAE2;
+    margin: 0.1em 0;
+    text-decoration: none;
+}
+
+.dropdowns p {
+    margin-left: 422%;
+    margin-right: -430%;
+}
+
+.dropdowns p a{
+    color:#F5FAE2;
+}
+
+#Eurovision{
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 215%;
+    left: 5%;
+    flex: 1;
+}
+
+#Eurovision h4{
+    color: #D67663;
+    font-weight: 350;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+}
+
+#no-tech-4-apartheid{
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 300%;
+    left: 3%;
+    flex: 1;
+}
+
+#no-tech-4-apartheid h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    color: #D67663;
+    margin-left: 45%;
+    margin-right: -50%;
+    margin-top: -16%;
+}
+
+#no-tech-4-apartheid p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #F5FAE2;
+    margin-left: 89%;
+    margin-right: -110%;
+}
+
+#no-tech-4-apartheid button {
+    background-color: #D67663;
+    color: #F5FAE2;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    display: flex;
+    font-size: 25px;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 1em 5em;
+    border-radius: 0em;
+    cursor: pointer;
+}
+
+#no-tech-4-apartheid .button-box {
+    margin-top: -18%;
+    margin-left: 160%;
+}
+
+
 
 
 @media screen and (max-width:768px) {
