@@ -302,7 +302,6 @@ need to ammend as a flex square so that it can be animated and each option shoul
     position: absolute;
     top: -68%;
     z-index: 1;
-
 }
 
 .circle3 {
@@ -325,7 +324,6 @@ h1 {
 
 p {
     font-family: "Open Sans", sans-serif;
-    ;
     color: #F5FAE2;
     font-size: 18px;
 }
@@ -338,7 +336,7 @@ p {
     height: 30%;
     position: absolute;
     z-index: 1;
-    left: 60%;
+    left: 55%;
     top: 105%;
     font-size: 150%;
     flex: 1;
@@ -346,17 +344,17 @@ p {
 
 .subtitle h2 {
     margin-top: -35%;
-    margin-left: 100%;
+    margin-left: 115%;
     align-items: right;
 }
 
 .subtitle p {
     align-items: center;
-    margin-left: 12%;
-    margin-right: -50%;
+    margin-left: 60%;
+    margin-right: -80%;
     margin-top: 5%;
-    word-spacing: 2px;
-    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
 }
 
 .dropdowns {

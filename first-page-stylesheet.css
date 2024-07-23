@@ -37,11 +37,12 @@ body {
     flex: 1;
 }
 
-#slidebar-and-title h2{
-    font-size: 50px;;
+#slidebar-and-title h2 {
+    font-size: 50px;
+    ;
 }
 
-#country-options{
+#country-options {
     width: 70%;
     position: relative;
     top: 50%;
@@ -50,5 +51,349 @@ body {
     flex: 1;
 }
 
-/*buttons here*/
+.Palestine {
+    width: 33.5%;
+    background: #994154;
+    color: #F5FAE2;
+    border: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: right;
+    padding: 0.5em 1em;
+    border-radius: 0em;
+    cursor: pointer;
+    transform: translate(0%, 146%);
+    font-family: "Open Sans", sans-serif;
+}
 
+.Sudan {
+    width: 33%;
+    background: #545454;
+    margin-left: 33.5%;
+    border: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: right;
+    padding: 0.5em 1em;
+    border-radius: 0em;
+    cursor: pointer;
+    transform: translate(0%, 46%);
+    color: #F5FAE2;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Congo {
+    width: 33.5%;
+    background: #545454;
+    margin-left: 66.5%;
+    border: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: right;
+    padding: 0.5em 1em;
+    border-radius: 0em;
+    cursor: pointer;
+    color: #F5FAE2;
+    transform: translate(0%, -54%);
+    font-family: "Open Sans", sans-serif;
+}
+
+button.link {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 200%;
+    transform: translate(180%, -100%);
+    position: absolute;
+    flex: 1;
+}
+
+#tier1-and-PACBI {
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 58%;
+    left: -9.5%;
+    flex: 1;
+}
+
+.site-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    color: #F5FAE2;
+    text-align: center;
+    height: 20%;
+    margin-top: 5%;
+}
+
+.tier1-title-header {
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    flex: 1;
+    top: 60%;
+    z-index: 1;
+
+}
+
+
+.sliding-navbar {
+    height: 30%;
+    background-color: #545454;
+
+}
+
+.options {
+    height: 110px;
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #F5FAE2;
+}
+
+.options h1 {
+    transform: translate(0%, 150%)
+}
+
+.op0 {
+    background-color: #A6A6A6;
+    height: 95%;
+    width: 16.3%;
+    transform: translate(1.5%, 2.5%);
+}
+
+.op1 {
+    background-color: #D67663;
+    height: 95%;
+    width: 16.3%;
+    transform: translate(104%, -97.5%);
+}
+
+.op2 {
+    background-color: #A6A6A6;
+    height: 95%;
+    width: 16.3%;
+    transform: translate(206%, -197.5%);
+}
+
+.op3 {
+    background-color: #A6A6A6;
+    height: 95%;
+    width: 16.3%;
+    transform: translate(308%, -297.5%);
+}
+
+.op4 {
+    background-color: #A6A6A6;
+    height: 95%;
+    width: 16.3%;
+    transform: translate(410%, -397.5%);
+}
+
+.op5 {
+    background-color: #A6A6A6;
+    height: 95%;
+    width: 16.3%;
+    transform: translate(512%, -497.5%);
+}
+
+#circle {
+    width: 570%;
+    height: 70%;
+    left: 90px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #D67663;
+    position: relative;
+    z-index: 0;
+}
+
+#circle2 {
+    width: 12%;
+    height: 90%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: white;
+    left: 87%;
+    top: 4.5%;
+    align-self: center;
+    position: absolute;
+    display: block;
+    z-index: 0;
+}
+
+.one {
+    color: #994154;
+    text-align: center;
+    display: inline-flex;
+    position: absolute;
+    line-height: 100%;
+    left: 43%;
+    top: 35%;
+}
+
+.tier1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 400%;
+    letter-spacing: 2px;
+    line-height: 200%;
+    text-align: left;
+    left: 25%;
+    position: relative;
+
+}
+
+.squiggle {
+    left: 200%;
+    width: 295%;
+    position: absolute;
+    top: -70%;
+    z-index: 1;
+}
+
+.circle3 {
+    z-index: -1;
+    left: 485%;
+    width: 355%;
+    height: 355%;
+    transform: translate(-10%, -58%);
+    position: absolute;
+}
+
+h1 {
+    color: white;
+    line-height: 50%;
+    text-align: center;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 200%;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #F5FAE2;
+    font-size: 18px;
+}
+
+.subtitle {
+    margin: auto;
+    padding: auto;
+    align-content: left;
+    justify-content: left;
+    height: 30%;
+    position: absolute;
+    z-index: 1;
+    left: 72%;
+    top: 135%;
+    font-size: 150%;
+    flex: 1;
+}
+
+.subtitle h2 {
+    margin-top: -35%;
+    margin-left: 115%;
+    align-items: right;
+}
+
+.subtitle p {
+    text-align: right;
+    margin-left: 8%;
+    margin-right: -102%;
+    margin-top: 5%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+#tier1-and-PACBI h2 {
+    color: #D67663;
+    font-family: "Open Sans", sans-serif;
+    font-size: 250%;
+    line-height: 50%;
+    left: 50%;
+}
+
+#tier1-and-PACBI h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    color: #F5FAE2;
+    line-height: 50%;
+}
+
+#cultural-boycotts {
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 2%;
+    flex: 1;
+}
+
+#cultural-boycotts h4 {
+    color: #D67663;
+    font-weight: 350;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+}
+
+#rectangle{
+    width:90%;
+    height:25%;
+    border-radius: 0;
+    border:none;
+    background-color:#545454;
+    position: relative;
+    z-index: 0;
+    
+}
+
+#cultural-boycotts p {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #F5FAE2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width:768px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        width: 100%;
+    }
+}
